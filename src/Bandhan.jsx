@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Phone, CheckCircle2 } from "lucide-react";
+import { Phone, CheckCircle2, MapPin } from "lucide-react";
 
 export default function Bandhan() {
   const sweets = [
@@ -45,6 +45,12 @@ export default function Bandhan() {
       name: "Doda Barfi (Gund-Pak)",
       desc: "Gud aur ghee me gond milakar bani mithai, khane me soft aur energetic lagti hai.",
       img: "https://imgs.search.brave.com/9wSX-5dGdhPGoec4iNeryvGfoWzk6kJfgjFaQCKZBsU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9kb2RoYS1iYXJm/aS1kb2RhLWJ1cmZp/LWlzLXRyYWRpdGlv/bmFsLWluZGlhbi1z/d2VldC13aGljaC1o/YXMtZ3JhaW55LWNo/ZXd5LXRleHR1cmVf/NDY2Njg5LTg0OTcx/LmpwZw",
+    },
+    {
+      id: 8,
+      name: "Dry Fruits (Gift Pack)",
+      desc: "Dry fruits se bhara sundar box, khane me healthy aur crunchy lagta hai.",
+      img: "https://imgs.search.brave.com/ECcFjubRynFI-xL67UUwWbP3p4J_Eirhg2vEYGMcHmk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jaG93/cGF0dHlzd2VldHNh/bmRzbmFja3MuY29t/L2Nkbi9zaG9wL3By/b2R1Y3RzLzM0Lmpw/Zz92PTE3NDAzNDM2/ODYmd2lkdGg9NDgw",
     },
   ];
 
@@ -165,16 +171,25 @@ export default function Bandhan() {
 
         {/* Contact (Simple Info Only) */}
         <section id="contact" className="my-16">
-          <div className="bg-white rounded-xl p-8 shadow text-center max-w-xl mx-auto">
-            <div className="text-2xl font-semibold text-rose-700">Get in Touch</div>
-            <div className="text-lg text-gray-700 mt-3 flex justify-center items-center gap-2">
-              <Phone size={18}/> +91 8823915546
-            </div>
-            <p className="text-sm text-gray-500 mt-2">
-              We are here to serve you the best traditional sweets. Call us directly to place your order.
-            </p>
-          </div>
-        </section>
+  <div className="bg-white rounded-xl p-8 shadow text-center max-w-xl mx-auto">
+    <div className="text-2xl font-semibold text-rose-700">Get in Touch</div>
+    
+    {/* Phone */}
+    <div className="text-lg text-gray-700 mt-3 flex justify-center items-center gap-2">
+      <Phone size={18}/> +91 8823915546
+    </div>
+
+    {/* Address */}
+    <div className="text-lg text-gray-700 mt-2 flex justify-center items-center gap-2">
+      <MapPin size={18}/> 1A Pooja Vihar, VKI 14, Jaipur
+    </div>
+
+    <p className="text-sm text-gray-500 mt-2">
+      We are here to serve you the best traditional sweets. Call us directly to place your order.
+    </p>
+  </div>
+</section>
+
 
         {/* Footer */}
         <footer className="py-6 text-center border-t text-sm text-gray-500">
