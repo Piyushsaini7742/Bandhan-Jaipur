@@ -40,6 +40,12 @@ export default function Bandhan() {
       desc: "Mawa me mishri milakar bani mithai, khane me crispy aur creamy lagti hai.",
       img: "https://imgs.search.brave.com/BC0nZp4Yv-CmCQvX_zfGjyahczI2hs48jf1IQmRVt_Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9kZWxp/Y2lvdXMtaW5kaWFu/LW1pdGhhaS1ob3Qt/bWlsa2Nha2Uta2Fs/YWthbmQtYnVyZmkt/YWx3YXIta2EtbWF3/YS1iYXJmaS1tYWRl/LWtob3lhLWRvb2Ro/LW1hbGFpLWRlY29y/YXRlZC1iYWRhbS1i/YWRhYW0tMjE3Njc2/Mjk2LmpwZw",
     },
+    {
+      id: 7,
+      name: "Doda Barfi (Gund-Pak)",
+      desc: "Gud aur ghee me gond milakar bani mithai, khane me soft aur energetic lagti hai.",
+      img: "https://imgs.search.brave.com/9wSX-5dGdhPGoec4iNeryvGfoWzk6kJfgjFaQCKZBsU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9kb2RoYS1iYXJm/aS1kb2RhLWJ1cmZp/LWlzLXRyYWRpdGlv/bmFsLWluZGlhbi1z/d2VldC13aGljaC1o/YXMtZ3JhaW55LWNo/ZXd5LXRleHR1cmVf/NDY2Njg5LTg0OTcx/LmpwZw",
+    },
   ];
 
   return (
