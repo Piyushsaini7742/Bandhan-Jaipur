@@ -52,6 +52,12 @@ export default function Bandhan() {
       desc: "Dry fruits se bhara sundar box, khane me healthy aur crunchy lagta hai.",
       img: "https://imgs.search.brave.com/ECcFjubRynFI-xL67UUwWbP3p4J_Eirhg2vEYGMcHmk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jaG93/cGF0dHlzd2VldHNh/bmRzbmFja3MuY29t/L2Nkbi9zaG9wL3By/b2R1Y3RzLzM0Lmpw/Zz92PTE3NDAzNDM2/ODYmd2lkdGg9NDgw",
     },
+    {
+      id: 10,
+      name: "Mix Sweets (Gift Pack)",
+      desc: "Mithaas se bhara sundar box, khane me rich aur traditional lagta hai.",
+      img: "/Bandhan.png",
+    },
   ];
 
   return (
@@ -150,45 +156,45 @@ export default function Bandhan() {
           <div>
             <h3 className="text-3xl font-bold">About Bandhan</h3>
             <p className="text-gray-600 mt-4 text-lg">
-              Bandhan started as a small family sweet shop with the idea that food creates bonds. 
+              Bandhan started as a small family sweet shop with the idea that food creates bonds.
               We focus on quality, traditional recipes, and a warm experience for every customer.
             </p>
 
             <ul className="mt-6 space-y-2 text-gray-700">
-              <li className="flex items-center gap-2"><CheckCircle2 className="text-rose-600 w-5 h-5"/> Fresh daily batches</li>
-              <li className="flex items-center gap-2"><CheckCircle2 className="text-rose-600 w-5 h-5"/> No preservatives</li>
-              <li className="flex items-center gap-2"><CheckCircle2 className="text-rose-600 w-5 h-5"/> Custom orders for events</li>
-              <li className="flex items-center gap-2"><CheckCircle2 className="text-rose-600 w-5 h-5"/> Delivery & pick-up available</li>
+              <li className="flex items-center gap-2"><CheckCircle2 className="text-rose-600 w-5 h-5" /> Fresh daily batches</li>
+              <li className="flex items-center gap-2"><CheckCircle2 className="text-rose-600 w-5 h-5" /> No preservatives</li>
+              <li className="flex items-center gap-2"><CheckCircle2 className="text-rose-600 w-5 h-5" /> Custom orders for events</li>
+              <li className="flex items-center gap-2"><CheckCircle2 className="text-rose-600 w-5 h-5" /> Delivery & pick-up available</li>
             </ul>
           </div>
 
           <div className="bg-white rounded-xl p-8 shadow text-center">
             <div className="text-xl font-semibold text-rose-700">Rahul Saini</div>
-            <div className="text-gray-600 mt-2 flex items-center justify-center gap-2"><Phone size={16}/> +91 8823915546</div>
+            <div className="text-gray-600 mt-2 flex items-center justify-center gap-2"><Phone size={16} /> +91 8823915546</div>
             <div className="text-sm text-gray-500 mt-1">For orders & inquiries</div>
           </div>
         </section>
 
         {/* Contact (Simple Info Only) */}
         <section id="contact" className="my-16">
-  <div className="bg-white rounded-xl p-8 shadow text-center max-w-xl mx-auto">
-    <div className="text-2xl font-semibold text-rose-700">Get in Touch</div>
-    
-    {/* Phone */}
-    <div className="text-lg text-gray-700 mt-3 flex justify-center items-center gap-2">
-      <Phone size={18}/> +91 8823915546
-    </div>
+          <div className="bg-white rounded-xl p-8 shadow text-center max-w-xl mx-auto">
+            <div className="text-2xl font-semibold text-rose-700">Get in Touch</div>
 
-    {/* Address */}
-    <div className="text-lg text-gray-700 mt-2 flex justify-center items-center gap-2">
-      <MapPin size={18}/> 1A Pooja Vihar, VKI 14, Jaipur
-    </div>
+            {/* Phone */}
+            <div className="text-lg text-gray-700 mt-3 flex justify-center items-center gap-2">
+              <Phone size={18} /> +91 8823915546
+            </div>
 
-    <p className="text-sm text-gray-500 mt-2">
-      We are here to serve you the best traditional sweets. Call us directly to place your order.
-    </p>
-  </div>
-</section>
+            {/* Address */}
+            <div className="text-lg text-gray-700 mt-2 flex justify-center items-center gap-2">
+              <MapPin size={18} /> 1A Pooja Vihar, VKI 14, Jaipur
+            </div>
+
+            <p className="text-sm text-gray-500 mt-2">
+              We are here to serve you the best traditional sweets. Call us directly to place your order.
+            </p>
+          </div>
+        </section>
 
 
         {/* Footer */}
